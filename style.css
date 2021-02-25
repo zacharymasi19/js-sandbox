@@ -7,6 +7,37 @@ body, html{
 #colorbox{
     width: 100px;
     height: 100px;
+    margin: 0 auto;
     border: 2px solid black;
     background-color: white;
 }
+
+.exampleBox{
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-color: grey;
+}
+
+#content{
+    color: black;
+    padding: 1rem;
+}
+
+#toggleDM{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: skyblue;
+    color: white;
+    transition: all .2s;
+    outline: none;
+}
+
+#toggleDM:hover{
+    background-color: red;
+}
+
