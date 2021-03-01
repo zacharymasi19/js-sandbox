@@ -25,6 +25,11 @@ body, html{
     padding: 1rem;
 }
 
+.dark-mode{
+    color: white !important;
+    background-color: darkslategray !important;
+}
+
 #toggleDM{
     width: 100px;
     height: 100px;
