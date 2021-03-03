@@ -1,10 +1,10 @@
-body, html{
+body, html {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-#colorbox{
+#colorbox {
     width: 100px;
     height: 100px;
     margin: 0 auto;
@@ -12,7 +12,7 @@ body, html{
     background-color: white;
 }
 
-.exampleBox{
+.exampleBox {
     margin: 1rem;
     padding: 1rem;
     border-bottom: 2px solid black;
@@ -20,17 +20,17 @@ body, html{
     background-color: grey;
 }
 
-#content{
+#content {
     color: black;
     padding: 1rem;
 }
 
-.dark-mode{
+.dark-mode {
     color: white !important;
     background-color: darkslategray !important;
 }
 
-#toggleDM{
+#toggleDM {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -42,7 +42,26 @@ body, html{
     outline: none;
 }
 
-#toggleDM:hover{
+#toggleDM:hover {
     background-color: red;
 }
 
+#runaway {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 2px solid white;
+    transition: all .2s, top .5s, left .5s;
+    outline: none;
+    top: 0px;
+    left: 0px;
+    position:relative;
+}
+
+#runaway:hover {
+    background-color: turquoise;
+    border-color: grey;
+    color: black;
+}
